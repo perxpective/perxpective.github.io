@@ -1,0 +1,279 @@
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+h1 {
+  font-size:50px;
+}
+
+p {
+  font-size:20px;
+}
+
+html {
+  font-family:MuseoModerno;
+  scroll-behavior: smooth;
+}
+
+#icon {
+  width:50px;
+  height:50px;
+  vertical-align: middle;
+}
+
+li {
+  display:inline-block;
+}
+
+.menu-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the menu-bar */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.3s;
+  border-radius:40px;
+  font-size:20px;
+}
+
+/* Change background on mouse-over */
+.menu-bar a:hover {
+  background: rgb(54, 70, 216);
+  font-size:25px;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; 
+}
+
+.title {
+  padding-top:300px;
+  padding-bottom:100px;
+  text-align: center;
+  background-image:url("https://image.freepik.com/free-vector/gradient-design-shapes-dark-background_23-2148409686.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-blend-mode: darken;
+  color:white;
+  height:600px;
+  background-attachment: fixed;
+  vertical-align: middle;
+}
+
+.title p {
+  font-size:25px;
+}
+
+.title #heading {
+  font-size:90px;
+  margin:0;
+  padding:0;
+  padding-bottom:30px;
+}
+
+
+.title h1 {
+  font-size:30px;
+  margin:0;
+  padding:0;
+}
+
+.table {
+  padding-top: 100px;
+  background:black;
+  color:white;
+}
+
+table {
+  margin:auto;
+}
+
+.table th, tr {
+  padding:100px;
+  text-align:left; 
+}
+
+
+#portrait {
+  border-radius:45px;
+  height:600px;
+  width:450px;
+}
+
+footer {
+  text-align: center;
+  font-size:5px;
+  padding:3px;
+  margin:0;
+  line-height:1px;
+  background:linear-gradient(blue, rgb(7, 97, 180));
+  background-size:cover;
+  color:white;
+}
+
+.leadership {
+  margin:auto;
+  text-align:center;
+  background-image: url('https://image.freepik.com/free-photo/empty-wooden-table-with-colorful-smoke-float-up-dark-background_68495-150.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:white;
+  background-attachment:fixed;
+  padding-bottom:100px;
+}
+
+.leadership p {
+  margin:auto;
+  width:50%;
+}
+
+.career p {
+  margin:auto;
+  width:50%;
+}
+
+#lead-icon {
+  height:200px;
+  width:200px;
+  margin-top:100px;
+}
+
+#cyber-icon {
+  margin-top:70px;
+  width:200px;
+  height:200px;
+}
+
+.career {
+  margin:auto;
+  text-align:center;
+  padding-top:100px;
+  color:white;
+  background:black;
+  padding-bottom:75px;
+}
+#check-icon {
+  width:200px;
+  height:200px;
+}
+
+.education {
+  text-align:center;
+  color:white;
+  background-image:url("https://image.freepik.com/free-photo/dark-black-brick-wall-has-rough-surface-as-background-image_99266-240.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding-top:30px;
+  padding-bottom:20px;
+  background-attachment:fixed;  
+}
+
+.passion {
+  background:rgb(26, 25, 25);
+  color:white;
+  text-align:center;
+  padding:80px;
+  
+}
+
+.passion img {
+  height:200px;
+  width:200px;
+  padding:50px;
+}
+
+.community #cys {
+  margin:auto;
+  width:50%;
+}
+
+.community img {
+  height:200px;
+  width:200px;
+  padding:50px;
+  border-radius:500px;
+  text-align:center;
+}
+
+.community th {
+  padding:100px;
+  width:60%;
+  text-align:center;
+  margin:auto;
+  vertical-align: top;
+}
+
+.community {
+  width:auto;
+  margin:auto;
+  padding:50px;
+  border-spacing:50px;
+  text-align:center;
+  background:url("https://img.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg?size=626&ext=jpg");
+  color:white;
+  background-size:cover;
+  backgroun-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.via img, table {
+  margin:auto;
+  height:300px;
+  overflow:hidden;
+  horizontal-align:middle;
+}
+
+.via td {
+  text-align: center;
+}
+
+.via {
+  color:white;
+  text-align:center;
+  background:black;
+  padding-top:80px;
+  padding-bottom:50px;
+}
+
+.via p {
+  margin:auto;
+  width:75%;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+#r2 {
+  height:545px;
+  padding:10px;
+  overflow:hidden;
+}
+
+.button {
+  background: linear-gradient(rgb(34, 109, 207), rgb(99, 175, 247));
+  border-radius:40px;
+  padding:10px 15px;
+  color:white;
+  text-decoration:none;
+  transition:0.5s;
+  text-align: center;
+  margin:auto;
+  horizontal-align:center;
+}
+
+.button:hover {
+  background:yellow;
+  color:black;
+}

@@ -1,0 +1,260 @@
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+p {
+  font-size:20px;
+}
+
+html {
+  font-family:MuseoModerno;
+  scroll-behavior: smooth;
+}
+
+#icon {
+  width:50px;
+  height:50px;
+  vertical-align: middle;
+}
+
+li {
+  display:inline-block;
+}
+
+.menu-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the menu-bar */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.3s;
+  border-radius:40px;
+  font-size:20px;
+}
+
+/* Change background on mouse-over */
+.menu-bar a:hover {
+  background: rgb(54, 70, 216);
+  font-size:25px;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; 
+}
+
+.title {
+  padding-top:300px;
+  padding-bottom:10px;
+  text-align: center;
+  background:rgba(0,0,0,0.65) url('https://wallpaperaccess.com/full/314873.jpg');
+  background-blend-mode: darken;
+  color:white;
+  height:600px;
+  background-attachment: fixed;
+  vertical-align: middle;
+}
+
+.title p {
+  font-size:25px;
+  padding-bottom:30px;
+}
+
+.title #heading {
+  font-size:90px;
+  margin:0;
+  padding:0;
+}
+
+
+.title h1 {
+  font-size:30px;
+  margin:0;
+  padding:0;
+}
+
+.about {
+  width:100%;
+  height:auto; 
+  padding-top:150px;
+  padding-bottom:100px;
+  horizontal-align:middle;
+  vertical-align: middle;
+  text-align: center;
+  color:white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image:url("https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg");
+}
+
+#para {
+  width:50%;
+  margin:auto;
+}
+
+#find-out {
+  padding:0px;
+  font-size:50px;
+  font-style: bold;
+  margin:auto;
+  
+}
+
+.button {
+  background: linear-gradient(rgb(34, 109, 207), rgb(99, 175, 247));
+  border-radius:40px;
+  padding:10px 15px;
+  color:white;
+  text-decoration:none;
+  transition:0.5s;
+  text-align: center;
+  margin:auto;
+  horizontal-align:center;
+}
+
+.button:hover {
+  background:yellow;
+  color:black;
+}
+
+#about-icon {
+  margin:0px;
+  padding:0px;
+  height:200px;
+  width:200px;
+}
+
+.programming-languages {
+  text-align:center;
+  margin-top:0px;
+  padding-top:50px;
+  horizontal-align:middle;
+  vertical-align:middle;  
+  background-image:url('https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png');
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:auto;
+  width:100%;
+  margin:auto;
+  color:white;
+  padding-bottom:50px;
+}
+
+#programming-header {
+  font-size:50px;
+}
+
+table {
+  horizontal-align:middle;
+  border:none;
+  margin:auto;
+  vertical-align:middle;
+  text-align: center;
+}
+
+tr, th {
+  padding:45px 45px;
+  height:100px;
+}
+
+
+#python-icon {
+  width:100px;
+}
+
+#js-icon {
+  width:200px;
+}
+
+#html-icon {
+  width:150px;
+}
+
+#cpp-icon {
+  width:100px;
+}
+
+#project-button {
+  background: linear-gradient(rgb(34, 109, 207), rgb(99, 175, 247));
+  border-radius:40px;
+  padding:10px 15px;
+  color:white;
+  text-decoration:none;
+  transition:0.5s;
+}
+
+.gallery {
+  text-align:center;
+  margin:auto;
+  vertical-align:middle;
+  background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-018.jpg');
+  color:white;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-top:50px;
+  padding-bottom:100px;
+}
+
+.gallery h1 {
+  font-size:50px;
+}
+
+.gallery p {
+  width:50%;
+  margin:auto;
+  padding-bottom:50px;
+}
+
+#instagram-icon {
+  height:250px;
+  width:250px;
+  padding:0;
+}
+
+.contacts {
+  background-image:url("https://media.idownloadblog.com/wp-content/uploads/2016/08/iPad_Tablet_night.png");
+  background-size:cover;
+  color:white;
+  padding-top:50px;
+  background-attachment: fixed;
+  padding-bottom:70px;
+  horitzonal-align:middle;
+  margin:0px;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.contacts h1 {
+  font-size:50px;
+  text-align:center;
+  padding-top:50px
+}
+
+.contacts table {
+  padding-right:40px;
+}
+
+
+footer {
+  text-align: center;
+  font-size:5px;
+  padding:3px;
+  margin:0;
+  line-height:1px;
+  background:linear-gradient(blue, rgb(7, 97, 180));
+  background-size:cover;
+  color:white;
+}

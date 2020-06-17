@@ -1,0 +1,144 @@
+  body {
+  margin: auto;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+p {
+  font-size:20px;
+}
+
+html {
+  font-family:MuseoModerno;
+  scroll-behavior: smooth;
+}
+
+#icon {
+  width:50px;
+  height:50px;
+  vertical-align: middle;
+}
+
+li {
+  display:inline-block;
+}
+
+.menu-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the menu-bar */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.3s;
+  border-radius:40px;
+  font-size:20px;
+}
+
+/* Change background on mouse-over */
+.menu-bar a:hover {
+  background: rgb(54, 70, 216);
+  font-size:25px;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; 
+}
+
+.title {
+  padding-top:300px;
+  padding-bottom:100px;
+  text-align: center;
+  background:rgba(0,0,0,0.65) url('https://us.123rf.com/450wm/aykuli/aykuli1604/aykuli160400057/56393710-programming-coding-on-a-monitor-on-dark-background.jpg?ver=6');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-blend-mode: darken;
+  color:white;
+  height:600px;
+  background-attachment: fixed;
+  vertical-align: middle;
+}
+
+.title p {
+  font-size:25px;
+}
+
+.title #heading {
+  font-size:90px;
+  margin:0;
+  padding-bottom:30px;
+}
+
+
+.title h1 {
+  font-size:30px;
+  margin:0;
+  padding:0;
+}
+
+footer {
+  text-align: center;
+  font-size:5px;
+  padding:3px;
+  margin:0;
+  line-height:1px;
+  background:linear-gradient(blue, rgb(7, 97, 180));
+  background-size:cover;
+  color:white;
+}
+
+.button {
+  background: linear-gradient(rgb(34, 109, 207), rgb(99, 175, 247));
+  border-radius:40px;
+  padding:10px 15px;
+  color:white;
+  text-decoration:none;
+  transition:0.5s;
+  text-align: center;
+  margin:auto;
+  horizontal-align:center;
+}
+
+.button:hover {
+  background:yellow;
+  color:black;
+}
+
+.projects {
+  padding-top:200px;
+  text-align:center;
+  color:white;
+  background:black;
+  margin:auto;
+  padding:100px;
+}
+
+table {
+  text-align: center;
+  margin:auto;
+
+}
+
+.projects td, tr{
+  padding-top:50px;
+  padding-bottom:100px;
+  width:1000px;
+  vertical-align: top;  
+  background:linear-gradient(rgb(90, 88, 88), rgb(14, 13, 13));
+}
+
+.projects td p {
+  margin:auto;
+  width:60%;
+  padding:50px;
+}

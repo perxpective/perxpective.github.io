@@ -127,21 +127,15 @@ footer {
 
 }
 
-table {
-  text-align:center;
-  margin:auto;
-}
 
-td {
-  margin:auto;
+img {
+  padding:5px;
   text-align:center;
-  padding:10px;
-  horizontal-align:middle;
-}
-
-.gallery img {
-  margin-top:8px;
-  vertical-align: middle;
-  overflow:hidden;
   height:200px;
+  overflow:hidden;
+}
+
+.gallery {
+  text-align:center;
+  margin:auto;
 }

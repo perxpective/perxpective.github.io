@@ -102,7 +102,7 @@ footer {
   padding:10px 15px;
   color:white;
   text-decoration:none;
-  transition:0.3s;
+  transition:0.5s;
   text-align: center;
   margin:auto;
   horizontal-align:center;
@@ -111,7 +111,6 @@ footer {
 .button:hover {
   background:yellow;
   color:black;
-  padding:20px 20px;
 }
 
 .contacts {
@@ -140,3 +139,12 @@ td {
   horizontal-align:center;  
 }
 
+.email {
+  color:white;
+  transition:0.32s;
+}
+
+.email:hover {
+  color:yellow;
+  font-size:22px;
+}

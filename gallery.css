@@ -116,6 +116,7 @@ footer {
 .button:hover {
   background:yellow;
   color:black;
+  padding:20px 20px;
 }
 
 .gallery {

@@ -84,11 +84,6 @@ li {
   padding:0;
 }
 
-@keyframes slidein {
-  from {right:1000px;}
-  to {right:0px;}
-}
-
 .title h1 {
   font-size:30px;
   margin:0;
@@ -96,7 +91,7 @@ li {
 }
 
 .about {
-  width:auto;
+  width:50%;
   height:auto; 
   padding-top:150px;
   padding-bottom:100px;

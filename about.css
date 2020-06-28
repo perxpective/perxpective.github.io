@@ -200,13 +200,6 @@ footer {
   width:50%;
 }
 
-.community img {
-  height:200px;
-  width:200px;
-  padding:50px;
-  border-radius:500px;
-  text-align:center;
-}
 
 .community th {
   padding:100px;
@@ -229,11 +222,11 @@ footer {
   background-attachment: fixed;
 }
 
-.via img, table {
-  margin:auto;
-  height:300px;
+img {
+  height:200px;
   overflow:hidden;
-  horizontal-align:middle;
+  padding:5px;
+  margin:auto;
 }
 
 .via td {

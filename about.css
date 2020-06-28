@@ -223,14 +223,20 @@ footer {
 }
 
 img {
-  height:200px;
+  height:250px;
   overflow:hidden;
   padding:5px;
   margin:auto;
 }
 
-.via td {
-  text-align: center;
+.via-img {
+  width:75%;
+  margin:auto;
+}
+
+.c21-img {
+  width:75%;
+  margin:auto;
 }
 
 .via {
@@ -248,11 +254,6 @@ img {
   margin-bottom:40px;
 }
 
-#r2 {
-  height:545px;
-  padding:10px;
-  overflow:hidden;
-}
 
 .button {
   background: linear-gradient(rgb(34, 109, 207), rgb(99, 175, 247));

@@ -222,6 +222,10 @@ footer {
   background-attachment: fixed;
 }
 
+.community img {
+  border-radius:100px;
+}
+
 img {
   height:250px;
   overflow:hidden;

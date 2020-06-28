@@ -245,11 +245,8 @@ tr, th {
   padding-top:50px
 }
 
-.contacts table {
-  margin:auto;
-}
-
 .contacts img {
+  padding:50px;
   width:150px;
   height:150px;
 }
